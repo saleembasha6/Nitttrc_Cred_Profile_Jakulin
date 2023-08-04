@@ -1,0 +1,52 @@
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  color: #000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #e67d37;
+  color: black;
+}
+
+.navbar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+/*header*/
+/* spacing on all sections */
+.navbarDark {
+    background: #000;
+}
+.section {
+    margin-top: 2rem;
+    padding-top: 2rem;
+}
+.section:last-of-type {
+    padding-bottom: 4rem;
+}
+
+.navbar {
+  /* Your navbar styles */
+  display: flex;
+  justify-content: center; /* Center the social icons horizontally */
+}
+table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+th, td {
+  background-color: #96D4D4;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
